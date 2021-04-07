@@ -1,0 +1,17 @@
+@import "./_variables";
+@import "./_base";
+
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 3em;
+  transition: opacity 0.25s, transform 0.2s var(--ease-io-cubic);
+
+  &:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+  }
+}
+
+header {
+  text-align: center;
+}

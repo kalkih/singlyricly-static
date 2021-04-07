@@ -1,0 +1,28 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: var(--font-color);
+}
+
+html {
+  background-image: linear-gradient(
+    to bottom,
+    var(--theme-color--shade),
+    var(--theme-color)
+  );
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
